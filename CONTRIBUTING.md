@@ -63,7 +63,7 @@ updated: 2026-04-02
 
 | Field | Valid Values |
 |-------|-------------|
-| `packageManager` | `apt`, `pip`, `npm`, `gem`, `cargo` |
+| `packageManager` | `apt`, `pip`, `npm`, `gem`, `cargo`, `brew` |
 | `severity` | `critical`, `high`, `medium`, `low` |
 | `category` | `Code Execution`, `Supply Chain`, `Source Manipulation`, `Signature Bypass`, or a new one if justified |
 | `platform` | `Linux`, `macOS`, `Windows` (list all that apply) |
@@ -108,7 +108,7 @@ This requires a few more steps:
 1. Fork the repo and create a feature branch
 2. Add your technique or package manager
 3. Test locally with `hugo server --buildDrafts`
-4. Submit a PR using the provided template
+4. Submit a PR using the provided template and attach screenshots of technique functioning.
 5. Ensure the Hugo build passes in CI
 
 ## Severity Guidelines
